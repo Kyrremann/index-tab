@@ -20,7 +20,7 @@ Sadly, it looks like it doesn't. There is no connection with the Atmega-chip, an
 several possibilities for this, so I need to do further debugging. One highly plausible reason is that there is 
 bad connection with the crystal, as the footprint I choose doesn't really fit with the crystal that I ordered.
 
-Another thing I found out is that I used a 0603 foot print for my diodes, instead of the normal SOT-123, so
+Another thing I found out is that I used a 0603 foot print for my diodes, instead of the normal SOD-123, so
 that is at least one thing that needs to be fixed in the next version.
 
 I've also decided to drop  the schottky-diode, as it turns out I really don't need it. I'm also thorn about
