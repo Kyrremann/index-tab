@@ -38,7 +38,7 @@ That's all for now. Probably going to make a seperate blog for my keyboards, as 
 [Akihabare 40](https://www.thingiverse.com/thing:3105838) and [Apoptosis](https://github.com/pseudoku/Apoptosis)
 keyboards I ordered at the same time as my Index Tab.
 
-![The printed v0.1 PCB](https://raw.githubusercontent.com/Kyrremann/index-tab/master/images/v0.1.png)
+![The printed v0.1 PCB](https://raw.githubusercontent.com/Kyrremann/index-tab/master/images/v0.1.jpg)
 
 ### Renders
 
