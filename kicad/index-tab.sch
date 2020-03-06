@@ -30,7 +30,7 @@ U 1 1 5E488E06
 P 1200 3400
 F 0 "J1" H 1307 4267 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1307 4176 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1350 3400 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1350 3400 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 3400 50  0001 C CNN
 	1    1200 3400
 	1    0    0    -1  
@@ -1057,10 +1057,10 @@ Wire Wire Line
 Wire Wire Line
 	2450 3100 2650 3100
 $Comp
-L Device:R R1
+L Device:R R2
 U 1 1 5E4988A3
 P 2300 3000
-F 0 "R1" H 2230 2954 50  0000 R CNN
+F 0 "R2" H 2230 2954 50  0000 R CNN
 F 1 "5.1K" H 2230 3045 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2230 3000 50  0001 C CNN
 F 3 "~" H 2300 3000 50  0001 C CNN
@@ -1068,10 +1068,10 @@ F 3 "~" H 2300 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R1
 U 1 1 5E496DB2
 P 2300 3100
-F 0 "R2" H 2230 3054 50  0000 R CNN
+F 0 "R1" H 2230 3054 50  0000 R CNN
 F 1 "5.1K" H 2230 3145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2230 3100 50  0001 C CNN
 F 3 "~" H 2300 3100 50  0001 C CNN
