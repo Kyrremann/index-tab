@@ -930,15 +930,13 @@ Text Label 4600 2150 0    50   ~ 0
 Text Label 1800 2800 0    50   ~ 0
 V_BUS
 Text Label 3900 3550 2    50   ~ 0
-V_BUS
-Text Label 4400 2150 2    50   ~ 0
-V_BUS
++5v
 Wire Wire Line
-	4400 2150 4400 2450
+	4400 2300 4400 2450
 Text Label 950  1350 2    50   ~ 0
 V_BUS
 Text Label 950  1850 2    50   ~ 0
-V_BUS
++5v
 $Comp
 L Device:C C3
 U 1 1 5E73F8E7
@@ -1092,4 +1090,7 @@ $EndComp
 NoConn ~ 5300 5250
 Text GLabel 5300 5650 2    50   Input ~ 0
 COL0
+Wire Wire Line
+	4400 2300 4500 2300
+Connection ~ 4500 2300
 $EndSCHEMATC
