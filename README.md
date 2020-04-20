@@ -11,7 +11,29 @@ Index Tab
 
 ## Diary
 
-### [v0.1] - 2020-02-28
+### [rev2] - 2020-04-10
+
+It's going slow, like most of the world right now. I ordered the second revision before I managed to get the first one
+working as I was a bit afraid there where something wrong with my design, plus I was sick and tired of debugging it.
+
+Revision 2 was ordered 30th of March, and it arrived a week after that, and it took me until now to write how it's
+gone. I can start of by saying it finally work! It didn't work at first, and it didn't work before I changed the
+capacitators for the crystal to something lower. I had originally just used the same crystal and capacitators as the
+[UT47.2](https://github.com/ai03-2725/UT47.2/), but it turnes out to not work for the bigger ATMEGA-32U4 chip (compared
+to the smaller ATMEGA-32U2 chip). After good tips from both Slack and Discord, I tried a lower capacitator, going from
+22pF down to 14pF, which is more correct if your using a "Load Capacitance formula", check out this
+[Adafruit](https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-your-design/) article to learn
+more.
+
+From the image below you can see that I haven't made a proper case for it yet, mostly because I'm not used to working
+with Inkscape, but I should be able to make a sandwich case with the tab on the top, other then that it's not much more
+to do for the Index Tab. I am planning a third revision, adding arrows for the diode silk print, adding holes for the
+stabs, and maybe making the space bar "area" more customizable.
+
+![A completed version of the rev2](https://raw.githubusercontent.com/Kyrremann/index-tab/master/images/rev2-completed.jpg)
+
+
+### [rev1] - 2020-02-28
 
 Yesterday I received the PCB for my first keyboard. It's looks better then expected, and I'm pleased with the form
 factor that I choose. I also had time to solder the important bits, aka the micro controller, to see if it works.
