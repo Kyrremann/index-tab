@@ -30,7 +30,7 @@ with Inkscape, but I should be able to make a sandwich case with the tab on the 
 to do for the Index Tab. I am planning a third revision, adding arrows for the diode silk print, adding holes for the
 stabs, and maybe making the space bar "area" more customizable.
 
-![A completed version of the rev2](https://raw.githubusercontent.com/Kyrremann/index-tab/master/images/rev2.jpg)
+![A completed version of the rev2](https://raw.githubusercontent.com/Kyrremann/index-tab/master/images/rev2.png)
 
 
 ### [rev1] - 2020-02-28
