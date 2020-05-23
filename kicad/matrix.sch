@@ -2587,9 +2587,7 @@ Wire Wire Line
 	7500 3550 7500 4400
 Connection ~ 7500 3550
 Wire Wire Line
-	4200 5850 5200 5850
-Wire Wire Line
-	3200 5850 4200 5850
+	4200 5850 4700 5850
 Wire Wire Line
 	2000 700  2000 1000
 Connection ~ 2000 1000
@@ -2611,4 +2609,210 @@ $EndComp
 Connection ~ 1500 1000
 Wire Wire Line
 	1500 1000 1500 1850
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5ECDD491
+P 3850 5300
+AR Path="/5ECDD491" Ref="MX?"  Part="1" 
+AR Path="/5E539A90/5ECDD491" Ref="MX77"  Part="1" 
+F 0 "MX77" H 3932 5524 60  0000 C CNN
+F 1 "MX-NoLED" H 3932 5450 20  0000 C CNN
+F 2 "index-tab:Kailh_socket_MX" H 3225 5275 60  0001 C CNN
+F 3 "" H 3225 5275 60  0001 C CNN
+	1    3850 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4400 4000 5250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5ECF60EA
+P 4850 5300
+AR Path="/5ECF60EA" Ref="MX?"  Part="1" 
+AR Path="/5E539A90/5ECF60EA" Ref="MX78"  Part="1" 
+F 0 "MX78" H 4932 5524 60  0000 C CNN
+F 1 "MX-NoLED" H 4932 5450 20  0000 C CNN
+F 2 "index-tab:Kailh_socket_MX" H 4225 5275 60  0001 C CNN
+F 3 "" H 4225 5275 60  0001 C CNN
+	1    4850 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4400 5000 5250
+Wire Wire Line
+	3200 5850 3700 5850
+$Comp
+L Diode:1N4148W D77
+U 1 1 5ED2AB81
+P 3700 5700
+F 0 "D77" V 3746 5620 50  0000 R CNN
+F 1 "1N4148W" V 3655 5620 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3700 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3700 5700 50  0001 C CNN
+	1    3700 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D78
+U 1 1 5ED4386F
+P 4700 5700
+F 0 "D78" V 4746 5620 50  0000 R CNN
+F 1 "1N4148W" V 4655 5620 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4700 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4700 5700 50  0001 C CNN
+	1    4700 5700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3700 5850
+Wire Wire Line
+	3700 5850 4200 5850
+Connection ~ 4700 5850
+Wire Wire Line
+	4700 5850 5200 5850
+Wire Wire Line
+	3700 5550 3700 5450
+Wire Wire Line
+	3700 5450 3800 5450
+Wire Wire Line
+	4700 5550 4700 5450
+Wire Wire Line
+	4700 5450 4800 5450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5EDC9716
+P 2950 6150
+AR Path="/5EDC9716" Ref="MX?"  Part="1" 
+AR Path="/5E539A90/5EDC9716" Ref="MX79"  Part="1" 
+F 0 "MX79" H 3032 6374 60  0000 C CNN
+F 1 "MX-NoLED" H 3032 6300 20  0000 C CNN
+F 2 "index-tab:Kailh_socket_MX" H 2325 6125 60  0001 C CNN
+F 3 "" H 2325 6125 60  0001 C CNN
+	1    2950 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5450 2800 6300
+Wire Wire Line
+	2800 6300 2900 6300
+Connection ~ 2800 5450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5EE09920
+P 3450 6150
+AR Path="/5EE09920" Ref="MX?"  Part="1" 
+AR Path="/5E539A90/5EE09920" Ref="MX80"  Part="1" 
+F 0 "MX80" H 3532 6374 60  0000 C CNN
+F 1 "MX-NoLED" H 3532 6300 20  0000 C CNN
+F 2 "index-tab:Kailh_socket_MX" H 2825 6125 60  0001 C CNN
+F 3 "" H 2825 6125 60  0001 C CNN
+	1    3450 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5EE0A330
+P 3950 6150
+AR Path="/5EE0A330" Ref="MX?"  Part="1" 
+AR Path="/5E539A90/5EE0A330" Ref="MX81"  Part="1" 
+F 0 "MX81" H 4032 6374 60  0000 C CNN
+F 1 "MX-NoLED" H 4032 6300 20  0000 C CNN
+F 2 "index-tab:Kailh_socket_MX" H 3325 6125 60  0001 C CNN
+F 3 "" H 3325 6125 60  0001 C CNN
+	1    3950 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6100 3100 5250
+Wire Wire Line
+	3100 5250 3000 5250
+Connection ~ 3000 5250
+Wire Wire Line
+	3300 5450 3300 6300
+Wire Wire Line
+	3300 6300 3400 6300
+Connection ~ 3300 5450
+Wire Wire Line
+	3800 5450 3800 6300
+Wire Wire Line
+	3800 6300 3900 6300
+Connection ~ 3800 5450
+Wire Wire Line
+	3500 5250 3600 5250
+Wire Wire Line
+	3600 5250 3600 6100
+Connection ~ 3500 5250
+Wire Wire Line
+	4000 5250 4100 5250
+Wire Wire Line
+	4100 5250 4100 6100
+Connection ~ 4000 5250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5EE973CF
+P 4450 6150
+AR Path="/5EE973CF" Ref="MX?"  Part="1" 
+AR Path="/5E539A90/5EE973CF" Ref="MX82"  Part="1" 
+F 0 "MX82" H 4532 6374 60  0000 C CNN
+F 1 "MX-NoLED" H 4532 6300 20  0000 C CNN
+F 2 "index-tab:Kailh_socket_MX" H 3825 6125 60  0001 C CNN
+F 3 "" H 3825 6125 60  0001 C CNN
+	1    4450 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6300 4300 6300
+Wire Wire Line
+	4300 6300 4300 5450
+Connection ~ 4300 5450
+Wire Wire Line
+	4500 5250 4600 5250
+Wire Wire Line
+	4600 5250 4600 6100
+Connection ~ 4500 5250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5EED3CF4
+P 4950 6150
+AR Path="/5EED3CF4" Ref="MX?"  Part="1" 
+AR Path="/5E539A90/5EED3CF4" Ref="MX83"  Part="1" 
+F 0 "MX83" H 5032 6374 60  0000 C CNN
+F 1 "MX-NoLED" H 5032 6300 20  0000 C CNN
+F 2 "index-tab:Kailh_socket_MX" H 4325 6125 60  0001 C CNN
+F 3 "" H 4325 6125 60  0001 C CNN
+	1    4950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5EED4245
+P 5450 6150
+AR Path="/5EED4245" Ref="MX?"  Part="1" 
+AR Path="/5E539A90/5EED4245" Ref="MX84"  Part="1" 
+F 0 "MX84" H 5532 6374 60  0000 C CNN
+F 1 "MX-NoLED" H 5532 6300 20  0000 C CNN
+F 2 "index-tab:Kailh_socket_MX" H 4825 6125 60  0001 C CNN
+F 3 "" H 4825 6125 60  0001 C CNN
+	1    5450 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6300 5300 6300
+Wire Wire Line
+	5300 6300 5300 5450
+Connection ~ 5300 5450
+Wire Wire Line
+	4900 6300 4800 6300
+Wire Wire Line
+	4800 6300 4800 5450
+Connection ~ 4800 5450
+Wire Wire Line
+	5100 6100 5100 5250
+Wire Wire Line
+	5100 5250 5000 5250
+Connection ~ 5000 5250
+Wire Wire Line
+	5600 6100 5600 5250
+Wire Wire Line
+	5600 5250 5500 5250
+Connection ~ 5500 5250
 $EndSCHEMATC
