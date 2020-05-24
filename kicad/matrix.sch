@@ -2508,8 +2508,6 @@ Connection ~ 7000 4400
 Wire Wire Line
 	7500 4400 7500 5250
 Connection ~ 7500 4400
-Wire Wire Line
-	1500 1850 1500 2700
 Connection ~ 1500 1850
 Wire Wire Line
 	2000 1850 2000 2700
@@ -2815,4 +2813,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 5250 5500 5250
 Connection ~ 5500 5250
+Wire Wire Line
+	1500 1850 1500 2700
 $EndSCHEMATC
