@@ -48,7 +48,7 @@ F 3 "" H 1050 4450 50  0001 C CNN
 $EndComp
 NoConn ~ 1800 3900
 NoConn ~ 1800 4000
-Text GLabel 5300 4050 2    50   Input ~ 0
+Text GLabel 5300 5250 2    50   Input ~ 0
 COL11
 Wire Wire Line
 	5100 4450 5300 4450
@@ -58,7 +58,7 @@ Wire Wire Line
 	5100 5150 5300 5150
 Wire Wire Line
 	5100 5250 5300 5250
-Text GLabel 5300 3950 2    50   Input ~ 0
+Text GLabel 5300 5150 2    50   Input ~ 0
 COL12
 Wire Wire Line
 	5100 2750 5300 2750
@@ -268,7 +268,6 @@ Wire Wire Line
 	5100 4550 5300 4550
 Wire Wire Line
 	5100 4350 5300 4350
-NoConn ~ 5300 5150
 NoConn ~ 5300 5550
 NoConn ~ 5300 5450
 NoConn ~ 5300 5350
@@ -1087,10 +1086,43 @@ F 3 "" H 2750 3050 50  0001 C CNN
 	1    2750 3050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5300 5250
 Text GLabel 5300 5650 2    50   Input ~ 0
 COL0
 Wire Wire Line
 	4400 2300 4500 2300
 Connection ~ 4500 2300
+Text Label 5300 3950 0    50   ~ 0
+SCK
+Text Label 5300 4050 0    50   ~ 0
+SDA
+Text Label 8050 4750 2    50   ~ 0
+SCK
+Text Label 8050 4650 2    50   ~ 0
+SDA
+$Comp
+L power:GND #PWR012
+U 1 1 5EE1F120
+P 7950 4950
+F 0 "#PWR012" H 7950 4700 50  0001 C CNN
+F 1 "GND" H 7955 4777 50  0000 C CNN
+F 2 "" H 7950 4950 50  0001 C CNN
+F 3 "" H 7950 4950 50  0001 C CNN
+	1    7950 4950
+	1    0    0    -1  
+$EndComp
+Text Label 8050 4850 2    50   ~ 0
++5v
+$Comp
+L Connector_Generic:Conn_01x04 oled1
+U 1 1 5EE2034B
+P 8250 4750
+F 0 "oled1" H 8330 4742 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 8330 4651 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical" H 8250 4750 50  0001 C CNN
+F 3 "~" H 8250 4750 50  0001 C CNN
+	1    8250 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4950 8050 4950
 $EndSCHEMATC
