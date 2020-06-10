@@ -11,6 +11,23 @@ Index Tab
 
 ## Diary
 
+### [rev4] - 2020-06-10
+
+The original plan was to be done with the project with revision 3, but looking at what I wanted to use the keyboard for,
+I decided to add a OLED screen to it. By doing that I could make a cool and simple keyboard switcher, with information
+about each switch. Will probably be a lot of work to get that to work, so we'll see if it ever will be made.
+
+Another thing I wanted to try out, as can be seen in PCB and layout images, is the swiss cheese bottom row. It started
+with me adding the stabs hole that should have been in rev1, and then adding more and more, too see if it is possible!
+And yes, it is possible with a lot of holes, the issue I've discovedred now, is that the stabs are not fitting as good,
+because there are so many hole next to each other, and overlapping.
+
+There will be one more revision before I'm saying I'm done, but that will just be to fix the small m2 screw holes for
+mounting, that should have been m2 spacers holes. Major mistake there...
+
+![A rev4 pcb with some stabilizers](https://raw.githubusercontent.com/Kyrremann/index-tab/master/images/rev4.png)
+
+
 ### [rev2] - 2020-04-10
 
 It's going slow, like most of the world right now. I ordered the second revision before I managed to get the first one
