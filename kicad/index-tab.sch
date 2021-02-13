@@ -96,7 +96,7 @@ Text GLabel 5300 3050 2    50   Input ~ 0
 ROW2
 Text GLabel 5300 3450 2    50   Input ~ 0
 ROW1
-Text GLabel 5300 4350 2    50   Input ~ 0
+Text GLabel 5300 4250 2    50   Input ~ 0
 ROW0
 $Comp
 L power:GND #PWR08
@@ -145,9 +145,9 @@ Wire Wire Line
 	5100 3750 5300 3750
 Text GLabel 5300 4150 2    50   Input ~ 0
 COL10
-Text GLabel 5300 4250 2    50   Input ~ 0
-COL9
 Text GLabel 5300 4450 2    50   Input ~ 0
+COL9
+Text GLabel 5300 4350 2    50   Input ~ 0
 COL8
 Text GLabel 5300 4550 2    50   Input ~ 0
 COL7
@@ -216,8 +216,6 @@ Text GLabel 5300 4950 2    50   Input ~ 0
 RGB
 Text GLabel 10750 1150 2    50   Input ~ 0
 RGB
-Text Label 10850 1500 0    50   ~ 0
-+5v
 $Comp
 L power:GND #PWR0106
 U 1 1 5E4FFF5D
@@ -476,9 +474,9 @@ Connection ~ 1900 3350
 Wire Wire Line
 	1900 3350 2000 3350
 Text Label 2000 3350 0    50   ~ 0
-D-
+USB_D-
 Text Label 2000 3550 0    50   ~ 0
-D+
+USB_D+
 Wire Wire Line
 	1900 3500 1900 3550
 Wire Wire Line
@@ -491,52 +489,48 @@ Wire Wire Line
 	1800 3600 1900 3600
 Wire Wire Line
 	1900 3500 1800 3500
+Connection ~ 2850 3050
 Wire Wire Line
-	1800 3100 2150 3100
+	2850 3000 2850 3050
 Wire Wire Line
-	2150 3000 1800 3000
-Connection ~ 2650 3050
+	2650 3000 2850 3000
 Wire Wire Line
-	2650 3000 2650 3050
+	2850 3050 2950 3050
 Wire Wire Line
-	2450 3000 2650 3000
+	2850 3100 2850 3050
 Wire Wire Line
-	2650 3050 2750 3050
-Wire Wire Line
-	2650 3100 2650 3050
-Wire Wire Line
-	2450 3100 2650 3100
+	2650 3100 2850 3100
 $Comp
 L Device:R R2
 U 1 1 5E4988A3
-P 2300 3000
-F 0 "R2" H 2230 2954 50  0000 R CNN
-F 1 "5.1K" H 2230 3045 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 3000 50  0001 C CNN
-F 3 "~" H 2300 3000 50  0001 C CNN
-	1    2300 3000
+P 2500 3000
+F 0 "R2" H 2430 2954 50  0000 R CNN
+F 1 "5.1K" H 2430 3045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 3000 50  0001 C CNN
+F 3 "~" H 2500 3000 50  0001 C CNN
+	1    2500 3000
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5E496DB2
-P 2300 3100
-F 0 "R1" H 2230 3054 50  0000 R CNN
-F 1 "5.1K" H 2230 3145 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 3100 50  0001 C CNN
-F 3 "~" H 2300 3100 50  0001 C CNN
-	1    2300 3100
+P 2500 3100
+F 0 "R1" H 2430 3054 50  0000 R CNN
+F 1 "5.1K" H 2430 3145 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 3100 50  0001 C CNN
+F 3 "~" H 2500 3100 50  0001 C CNN
+	1    2500 3100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5E49637F
-P 2750 3050
-F 0 "#PWR03" H 2750 2800 50  0001 C CNN
-F 1 "GND" H 2755 2877 50  0000 C CNN
-F 2 "" H 2750 3050 50  0001 C CNN
-F 3 "" H 2750 3050 50  0001 C CNN
-	1    2750 3050
+P 2950 3050
+F 0 "#PWR03" H 2950 2800 50  0001 C CNN
+F 1 "GND" H 2955 2877 50  0000 C CNN
+F 2 "" H 2950 3050 50  0001 C CNN
+F 3 "" H 2950 3050 50  0001 C CNN
+	1    2950 3050
 	1    0    0    -1  
 $EndComp
 Text GLabel 5300 5650 2    50   Input ~ 0
@@ -853,7 +847,7 @@ $EndComp
 Wire Wire Line
 	1600 5050 1350 5050
 Text Label 1900 4450 2    50   ~ 0
-D-
+USB_D-
 Text Label 2300 4450 0    50   ~ 0
 D-
 Wire Wire Line
@@ -867,7 +861,7 @@ Wire Wire Line
 Text Label 2300 5650 0    50   ~ 0
 D+
 Text Label 1900 5650 2    50   ~ 0
-D+
+USB_D+
 Wire Wire Line
 	1900 5650 2000 5650
 Wire Wire Line
@@ -934,9 +928,9 @@ F 3 "~" H 5700 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5250 1350 2    50   ~ 0
-D+
+USB_D+
 Text Label 5250 1250 2    50   ~ 0
-D-
+USB_D-
 Text Label 5250 1150 2    50   ~ 0
 VBUS
 $Comp
@@ -990,4 +984,20 @@ Wire Wire Line
 	5600 2100 5800 2100
 Wire Wire Line
 	6100 2100 6350 2100
+$Comp
+L power:VCC #PWR0101
+U 1 1 60283534
+P 10850 1500
+F 0 "#PWR0101" H 10850 1350 50  0001 C CNN
+F 1 "VCC" H 10867 1673 50  0000 C CNN
+F 2 "" H 10850 1500 50  0001 C CNN
+F 3 "" H 10850 1500 50  0001 C CNN
+	1    10850 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 1500
+Wire Wire Line
+	1800 3000 2350 3000
+Wire Wire Line
+	1800 3100 2350 3100
 $EndSCHEMATC
