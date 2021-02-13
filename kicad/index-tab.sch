@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Index Tab"
-Date "2020-02-06"
-Rev "4"
+Date "2021-02-13"
+Rev "5"
 Comp "Minimon"
 Comment1 ""
 Comment2 ""
@@ -1000,4 +1000,40 @@ Wire Wire Line
 	1800 3000 2350 3000
 Wire Wire Line
 	1800 3100 2350 3100
+$Comp
+L Connector_Generic:Conn_01x01 STAB1
+U 1 1 6036E318
+P 8450 4200
+F 0 "STAB1" H 8530 4242 50  0000 L CNN
+F 1 "7u" H 8530 4151 50  0000 L CNN
+F 2 "index-tab:MXOnly-7U-Hotswap" H 8450 4200 50  0001 C CNN
+F 3 "~" H 8450 4200 50  0001 C CNN
+	1    8450 4200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8250 4200
+NoConn ~ 8250 4450
+$Comp
+L Connector_Generic:Conn_01x01 STAB2
+U 1 1 60383A5A
+P 8450 4450
+F 0 "STAB2" H 8530 4492 50  0000 L CNN
+F 1 "2u" H 8530 4401 50  0000 L CNN
+F 2 "index-tab:Stabilizer_MX_2u" H 8450 4450 50  0001 C CNN
+F 3 "~" H 8450 4450 50  0001 C CNN
+	1    8450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 STAB3
+U 1 1 60383E39
+P 8450 4650
+F 0 "STAB3" H 8530 4692 50  0000 L CNN
+F 1 "2u" H 8530 4601 50  0000 L CNN
+F 2 "index-tab:Stabilizer_MX_2u" H 8450 4650 50  0001 C CNN
+F 3 "~" H 8450 4650 50  0001 C CNN
+	1    8450 4650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8250 4650
 $EndSCHEMATC

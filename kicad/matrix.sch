@@ -2678,24 +2678,6 @@ Wire Wire Line
 	4700 5450 4800 5450
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5EDC9716
-P 2950 6150
-AR Path="/5EDC9716" Ref="MX?"  Part="1" 
-AR Path="/5E539A90/5EDC9716" Ref="MX79"  Part="1" 
-F 0 "MX79" H 3032 6374 60  0000 C CNN
-F 1 "MX-NoLED" H 3032 6300 20  0000 C CNN
-F 2 "index-tab:Kailh_socket_MX" H 2325 6125 60  0001 C CNN
-F 3 "" H 2325 6125 60  0001 C CNN
-	1    2950 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 5450 2800 6300
-Wire Wire Line
-	2800 6300 2900 6300
-Connection ~ 2800 5450
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5EE09920
 P 3450 6150
 AR Path="/5EE09920" Ref="MX?"  Part="1" 
@@ -2707,44 +2689,16 @@ F 3 "" H 2825 6125 60  0001 C CNN
 	1    3450 6150
 	1    0    0    -1  
 $EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5EE0A330
-P 3950 6150
-AR Path="/5EE0A330" Ref="MX?"  Part="1" 
-AR Path="/5E539A90/5EE0A330" Ref="MX81"  Part="1" 
-F 0 "MX81" H 4032 6374 60  0000 C CNN
-F 1 "MX-NoLED" H 4032 6300 20  0000 C CNN
-F 2 "index-tab:Kailh_socket_MX" H 3325 6125 60  0001 C CNN
-F 3 "" H 3325 6125 60  0001 C CNN
-	1    3950 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 6100 3100 5250
-Wire Wire Line
-	3100 5250 3000 5250
-Connection ~ 3000 5250
 Wire Wire Line
 	3300 5450 3300 6300
 Wire Wire Line
 	3300 6300 3400 6300
 Connection ~ 3300 5450
 Wire Wire Line
-	3800 5450 3800 6300
-Wire Wire Line
-	3800 6300 3900 6300
-Connection ~ 3800 5450
-Wire Wire Line
 	3500 5250 3600 5250
 Wire Wire Line
 	3600 5250 3600 6100
 Connection ~ 3500 5250
-Wire Wire Line
-	4000 5250 4100 5250
-Wire Wire Line
-	4100 5250 4100 6100
-Connection ~ 4000 5250
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5EE973CF
@@ -2768,52 +2722,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 5250 4600 6100
 Connection ~ 4500 5250
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5EED3CF4
-P 4950 6150
-AR Path="/5EED3CF4" Ref="MX?"  Part="1" 
-AR Path="/5E539A90/5EED3CF4" Ref="MX83"  Part="1" 
-F 0 "MX83" H 5032 6374 60  0000 C CNN
-F 1 "MX-NoLED" H 5032 6300 20  0000 C CNN
-F 2 "index-tab:Kailh_socket_MX" H 4325 6125 60  0001 C CNN
-F 3 "" H 4325 6125 60  0001 C CNN
-	1    4950 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5EED4245
-P 5450 6150
-AR Path="/5EED4245" Ref="MX?"  Part="1" 
-AR Path="/5E539A90/5EED4245" Ref="MX84"  Part="1" 
-F 0 "MX84" H 5532 6374 60  0000 C CNN
-F 1 "MX-NoLED" H 5532 6300 20  0000 C CNN
-F 2 "index-tab:Kailh_socket_MX" H 4825 6125 60  0001 C CNN
-F 3 "" H 4825 6125 60  0001 C CNN
-	1    5450 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 6300 5300 6300
-Wire Wire Line
-	5300 6300 5300 5450
-Connection ~ 5300 5450
-Wire Wire Line
-	4900 6300 4800 6300
-Wire Wire Line
-	4800 6300 4800 5450
-Connection ~ 4800 5450
-Wire Wire Line
-	5100 6100 5100 5250
-Wire Wire Line
-	5100 5250 5000 5250
-Connection ~ 5000 5250
-Wire Wire Line
-	5600 6100 5600 5250
-Wire Wire Line
-	5600 5250 5500 5250
-Connection ~ 5500 5250
 Wire Wire Line
 	1500 1850 1500 2700
 $EndSCHEMATC
