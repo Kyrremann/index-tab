@@ -11,6 +11,19 @@ Index Tab
 
 ## Diary
 
+### [rev5] - 2021-03-07
+
+It's over a year since I started on this project. I had problem soldering rev4, so decided to copy the MCU laytout from
+[evyd13/plain60-c](https://github.com/evyd13/plain60-c) and pay for SMT assembly. I also had to fix the spacer holes,
+as they where too small for the spacers. The size was for a M2 screw. It's been changed to a 5mm hole. The OLED screen
+has also been removed, firstly because I choose the wrong component (so the holes where way too small), and I don't
+really like the look of the OLED screens.
+
+Another big change is the change to the keyboard layout, I've removed the swiss cheeze bottom. Decided to just go for a
+simple 1u only row, 2x2u, or 7u bottom-row. Now you can use clip-in stabilizers. Does didn't fit the swiss cheese row.
+
+![Rev5 with switches and keycaps - DSA Vilebloom](https://raw.githubusercontent.com/Kyrremann/index-tab/master/images/rev5-dsa-vilebloom.JPG)
+
 ### [rev4] - 2020-06-10
 
 The original plan was to be done with the project with revision 3, but looking at what I wanted to use the keyboard for,
