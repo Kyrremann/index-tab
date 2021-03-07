@@ -94,7 +94,7 @@ keyboards I ordered at the same time as my Index Tab.
 
 ### Renders
 
-For now I've got some simple renders for Kicad, enjoy!
+For now I've got some simple renders from Kicad, enjoy!
 
 ![the front side](https://raw.githubusercontent.com/Kyrremann/index-tab/master/images/index-tab-front.png)
 
